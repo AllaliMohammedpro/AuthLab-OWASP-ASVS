@@ -1,0 +1,6 @@
+target/
+data/
+config/common-passwords.txt
+*.log
+.idea/
+.vscode/
