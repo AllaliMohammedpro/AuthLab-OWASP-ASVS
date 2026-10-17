@@ -1,7 +1,21 @@
+# React
+**/node_modules/
+**/dist/
+
+# Spring Boot
+**/target/
+*.class
+
+# Base de données locale
+**/data/
+*.mv.db
+*.trace.db
+
+# Fichiers sensibles
+**/.env
+**/.env.*
+!**/.env.example
+
+# Fichiers temporaires
+*.log
 .DS_Store
-*.zip
-backend/target/
-backend/data/
-backend/config/common-passwords.txt
-frontend/node_modules/
-frontend/dist/
